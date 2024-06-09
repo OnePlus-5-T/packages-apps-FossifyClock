@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+    <exception package="org.fossify.clock">
+        <permission name="com.android.alarm.permission.SET_ALARM" fixed="false" />
+        <permission name="android.permission.VIBRATE" fixed="false" />
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" fixed="false" />
+        <permission name="android.permission.USE_FULL_SCREEN_INTENT" fixed="false" />
+        <permission name="android.permission.USE_EXACT_ALARM" fixed="false" />
+        <permission name="android.permission.FOREGROUND_SERVICE" fixed="false" />
+        <permission name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" fixed="false" />
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" fixed="false" />
+        <permission name="android.permission.WAKE_LOCK" fixed="false" />
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+    </exception>
+</exceptions>

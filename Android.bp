@@ -1,0 +1,19 @@
+android_app_import {
+	name: "FossifyClock",
+	apk: "FossifyClock.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: true,
+	},
+	preprocessed: true,
+	overrides: ["DeskClock"],
+	required: ["fossifyclock-permissions.xml"],
+	vendor: true,
+}
+
+prebuilt_etc {
+	name: "fossifyclock-permissions.xml",
+	src: "fossifyclock-permissions.xml",
+	sub_dir: "default-permissions",
+	vendor: true,
+}
